@@ -7,6 +7,7 @@ import {
   NavigationMenuItem,
   NavigationMenuList,
 } from "../ui/navigation-menu"
+import { ModeToggle } from "../theme/ModeToggle"
 
 export function Navbar() {
   return (
@@ -26,6 +27,7 @@ export function Navbar() {
             <NavigationMenuItem>
               <Link href="/contact">Contact</Link>
             </NavigationMenuItem>
+            <ModeToggle/>
           </NavigationMenuList>
         </NavigationMenu>
       </div>
