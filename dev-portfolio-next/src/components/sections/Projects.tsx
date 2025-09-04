@@ -19,6 +19,7 @@ export function Projects() {
                 src={project.image}
                 alt={project.title}
                 fill
+                objectFit="contain"
                 className="object-cover"
               />
             </div>

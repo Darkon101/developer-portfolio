@@ -19,6 +19,9 @@ export function Navbar() {
         <NavigationMenu>
           <NavigationMenuList className="flex space-x-6">
             <NavigationMenuItem>
+              <Link href="#">Home</Link>
+            </NavigationMenuItem>
+            <NavigationMenuItem>
               <Link href="/about">About</Link>
             </NavigationMenuItem>
             <NavigationMenuItem>
