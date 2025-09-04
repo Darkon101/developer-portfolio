@@ -28,7 +28,7 @@ export function Navbar() {
               <Link href="/#projects">Projects</Link>
             </NavigationMenuItem>
             <NavigationMenuItem>
-              <Link href="/">Contact</Link>
+              <Link href="/contact">Contact</Link>
             </NavigationMenuItem>
             <ModeToggle/>
           </NavigationMenuList>

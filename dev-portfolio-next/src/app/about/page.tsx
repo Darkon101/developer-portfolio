@@ -1,7 +1,6 @@
 import { PageFooter } from "@/components/layout/Footer";
 import { Navbar } from "@/components/layout/Navbar";
 import { AboutMe } from "@/components/sections/AboutMe";
-import { Experience } from "@/components/sections/Experience";
 
 export default function About(){
     return (
