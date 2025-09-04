@@ -2,6 +2,7 @@ import { FaCss3Alt, FaHtml5, FaNodeJs, FaPython, FaReact } from "react-icons/fa"
 import {
   SiExpo,
   SiExpress,
+  SiGit,
   SiGithub,
   SiGnubash,
   SiJest,
@@ -11,7 +12,6 @@ import {
   SiTailwindcss,
   SiTypescript,
 } from "react-icons/si"
-import { TbBrandReactNative } from "react-icons/tb"
 
 import { Card, CardContent } from "../ui/card"
 
@@ -32,12 +32,13 @@ export function TechStack() {
     { name: "React Native", icon: FaReact, color: "text-sky-500" },
     { name: "Expo", icon: SiExpo, color: "text-black dark:text-white" },
     { name: "Bash", icon: SiGnubash, color: "text-gray-700" },
+    { name: "Git", icon: SiGit, color: "text-orange-600 dark:text-white" },
     { name: "GitHub", icon: SiGithub, color: "text-gray-800 dark:text-white" },
   ]
 
   return (
     <section className="container mx-auto py-20">
-      <h2 className="text-4xl font-bold text-center mb-12">My Tech Stack</h2>
+      <h2 className="text-4xl font-bold text-center mb-20">My Tech Stack</h2>
       <div className="relative w-full overflow-hidden">
         <div className="flex animate-scroll space-x-6">
           {[...tech, ...tech].map((item, idx) => {
