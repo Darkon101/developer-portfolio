@@ -19,16 +19,16 @@ export function Navbar() {
         <NavigationMenu>
           <NavigationMenuList className="flex space-x-6">
             <NavigationMenuItem>
-              <Link href="#">Home</Link>
+              <Link href="/">Home</Link>
             </NavigationMenuItem>
             <NavigationMenuItem>
               <Link href="/about">About</Link>
             </NavigationMenuItem>
             <NavigationMenuItem>
-              <Link href="/projects">Projects</Link>
+              <Link href="/#projects">Projects</Link>
             </NavigationMenuItem>
             <NavigationMenuItem>
-              <Link href="/contact">Contact</Link>
+              <Link href="/">Contact</Link>
             </NavigationMenuItem>
             <ModeToggle/>
           </NavigationMenuList>
