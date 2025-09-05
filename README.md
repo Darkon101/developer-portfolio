@@ -2,6 +2,10 @@
 
 A modern, responsive portfolio website built with Next.js, TypeScript, and Tailwind CSS. Features a clean design with dark/light mode toggle and showcases projects, skills, and contact information.
 
+## Live version
+
+[https://samin-taseen.vercel.app/](https://samin-taseen.vercel.app/)
+
 ## 🌟 Features
 
 - **Responsive Design**: Mobile-first approach with clean, modern UI
@@ -129,7 +133,7 @@ npm run build
 ## 👤 Author
 
 **Samin Taseen**
-- Website: [Your Portfolio URL]
+- Website: https://samin-taseen.vercel.app/
 - LinkedIn: [@samin-taseen](https://linkedin.com/in/samin-taseen)
 - GitHub: [@Darkon101](https://github.com/Darkon101)
 
