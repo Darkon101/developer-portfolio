@@ -1,6 +1,6 @@
 import { Terminal } from "lucide-react"
 import { Footer } from "@/components/ui/footer"
-import { SiGithub, SiLinkedin } from "react-icons/si"
+import { SiGithub } from "react-icons/si"
 import { FaLinkedinIn } from "react-icons/fa"
 
 export function PageFooter() {

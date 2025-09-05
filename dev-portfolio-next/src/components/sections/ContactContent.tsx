@@ -19,7 +19,7 @@ export function ContactContent() {
         </h2>
         <div className="px-40">
           <h2 className="font-extrabold text-6xl mt-24 tracking-tight mb-8">
-            Let's connect:
+            Let&apos;s connect:
           </h2>
           <div className="flex flex-row gap-5">
               <Button
