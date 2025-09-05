@@ -26,7 +26,7 @@ export const projects: Project[] = [
   {
     title: 'Portfolio Website',
     description: "My portfolio",
-    image: "/projects/placeholder.png",
+    image: "/projects/portfoliogif.gif",
     techStack: ["HTML", "CSS", "TypeScript", "React", "NextJs", "Tailwind"],
     codeLink: "https://github.com/Darkon101/developer-portfolio",
   }
